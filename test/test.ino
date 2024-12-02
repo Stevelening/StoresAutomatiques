@@ -26,48 +26,77 @@ void setup()
 
 void loop()
 {
-  // Bluetooth
-  int i = 0;
-  int someChar[32] = {0};
-  // when characters arrive over the serial port...
-  // if(Serial.available()) {
-  //   do{
-  //   someChar[i++] = Serial.read();
-  //   delay(3);
-  //   }while (Serial.available() > 0);
-  //   mySerial.println(someChar);
-  //   Serial.println(someChar);
-  // }
-
-  while(Serial.available()){
-    int value = (int)Serial.read();
-    mySerial.print(value);
-    mySerial.print(" ");
-    //Serial.print(getChar(value));
-    Serial.print(char(value));
-    Serial.print(" ");
-  }
-  while(mySerial.available()){
-    int value = (int)mySerial.read();
-    // on exécute une action en fonction de la valeur lue
-    Serial.print((char)value);
-    Serial.print(" ");
-    if(value == (char)"l"){
-      // on tourne vers la gauche
-    }
-    if(value == (char)"r"){
-      // on tourne vers la droite
-    }
-    mySerial.print(value);
-    mySerial.print(" ");
-  }
-
-  // Moteur
-  int sensorValue = analogRead(sensorPin); // Lecture de la valeur du capteur
-  int luminosity = map(sensorValue, 0, 1023, 100, 0); // Conversion en pourcentage de luminosité
-
-  Serial.print("Degré de luminosité : ");
-  Serial.print(luminosity);
-  Serial.println("%");
  
+  bool autoEnable;
+  int height; // 0 pas de store ; 100 plein store ;
+  int seuil; // seuil a définir par default
+  getCmd(&autoEnable, &height, &seuil);
+
+  int luminosity;
+  getLuminosity(&luminosity); 
+
+  setMoteur(autoEnable, height, seuil, luminosity);
+  
+  delay(3000);
+}
+
+void setMoteur(bool autoEnable, int height, int seuil, int luminosity) {
+  // on fait tourner le moteur en fonction des paramètres
+  if(autoEnable) {
+    monServo.write(seuil); 
+  } else {
+    monServo.write(88); 
+  }
+}
+
+void getLuminosity(int * luminosity) {
+  // on récupère la luminosité
+  int sensorValue = analogRead(sensorPin); // Lecture de la valeur du capteur
+  *luminosity = map(sensorValue, 0, 1023, 100, 0); // Conversion en pourcentage de luminosité
+  debug("Degré de luminosité : ", *luminosity, "%");
+}
+
+void getCmd(bool* autoEnable, int* height, int* seuil) {
+  // Par Bluetooth
+  while(mySerial.available()){
+    char value = mySerial.read();
+    Serial.print("valeur: ");
+    Serial.print(value);
+    Serial.println();
+    
+    if(value == 'm') {
+      // passe en mode manuel
+      *autoEnable = false;
+      debug("Passage en mode manuel", -1, "");
+    }
+
+    if(value == 'h') {
+      // change la hauteur du store en mode manuel
+      int value = (int)mySerial.read();
+      *height = value;
+      debug("Reglage de la hauteur à : ", value, "");
+    }
+
+    if(value == 'a'){
+      // passe en mode automatique
+      *autoEnable = true;
+      debug("Passage en mode automatique", -1, "");
+    }
+
+    if(value == 's') {
+      // change le seuil de fermeture du mode automatique
+      int value = (int)mySerial.read();
+      *seuil = value;
+      debug("Reglage du seuil à : ", value, "");
+    }
+  }
+}
+
+
+void debug(char * message, int value, char * unite) {
+  Serial.print(message);
+  if(value != -1) {
+    Serial.print(value);
+  }
+  Serial.println(unite);
 }
