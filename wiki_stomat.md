@@ -32,13 +32,9 @@ Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialem
 
 ## Future
 - future works étendu : au cours du projet
-    - vous avez eu d’autres idées 
+ 
+    On aurait peut etre pu ajouter la faculte a ce que ce dernier s'arrete lors de sa descente ou de sa montee  ou a quelle vitesse il doit aller dans un sens comme dans l'autre mais cet ensemble d'etapes et enfin modifier le seuil auquel le store s'arrete lors de son mouvement , ameliorer l'arbre moteur encore instable, une alimentation branchee sur secteur au lieu des cables connectes . En effet, tout cela constitue une version ulterieure de notre projet (avec des ressources et un temps plus consequent) .Un prototype en taill reele pouvant etre implemente au quotidien
 
-    On aurait peut etre pu ajouter la faculte a ce que ce dernier s'arrete lors de sa descente ou de sa montee  ou a quelle vitesse il doit aller dans un sens comme dans l'autre mais cet ensemble d'etapes et enfin modifier le seuil auquel le store s'arrete lors de son mouvement , ameliorer l'arbre moteur encore isntable, une alimentation branchee sur secteur au lieu des cables connectes . En effet, tout cela constitue une version ulterieure de notre projet (avec des ressources et un temps plus consequent) .Un prototype en taill reele pouvant etre implemente au quotidien
-
-    - nouvelle problématique plus précise/plus large
-    - nouvelles fonctionnalités à ajouter qui nécessitent du temps et du matériel supplémentaire
     On aurait pu faire une application web et mobile permettant la connexion et la configuration du store automatique a distance.
-    - d’autres compétences nécessaires
-    - vous percevez un potentiel de commercialisation en l’état/avec l’ajout de nouvelles fonctionnalités, etc
+
 Ceci peut bien evidemment etre commercialiser si cela est fait a une echelle reelle et avec toutes les fonctionnalites non implementees.
