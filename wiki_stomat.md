@@ -79,7 +79,6 @@ budget approximatif : matériel + temps de travail (cohérent avec votre plannin
 - Temps de travail:
 
 ## Bilan
-<<<<<<< HEAD
 - bref bilan : vous avez répondu à la problématique, même en partie;
 Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialement on avait pour objectif de faire des stores automatiques permettant en fonction d'une simple commande de pouvoir faire monter ou descendre les stores . Dans nos recherches on s'est rendu compte qu'onj pouvait le rendre aussi manuel en fonction de notre sensibilite au soleil ce qui rendait encore sa presence encore plus ineluctable dans notre vie au quotidien...
 
@@ -91,16 +90,3 @@ Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialem
     On aurait pu faire une application web et mobile permettant la connexion et la configuration du store automatique a distance.
 
 Ceci peut bien evidemment etre commercialiser si cela est fait a une echelle reelle et avec toutes les fonctionnalites non implementees.
-=======
-```bref bilan : vous avez répondu à la problématique, même en partie```
-Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialement on avait pour objectif de faire des stores automatiques permettant en finction d'une simple commande de pouvoir faire monter ou descendre les stores . Dans nos recherches on s'est rendu compte qu'onj pouvait le rendre aussi manuel en fonction de notre sensibilite au soleil ce qui rendait encore sa presence encore plus ineluctable dans notre vie au quotidien...On aurait peut etre pu ajouter la faculte a ce que ce dernier s'arrete lors de sa descente ou de sa montee s'il recoit  "une commande STOP" ou a quelle vitesse il doit aller mais cet ensemble d'etapes constitue une version ulterieure de notre projet (avec des ressources et un temps plus consequent) 
-
-## Future
-```future works étendu : au cours du projet```
-- vous avez eu d’autres idées
-- nouvelle problématique plus précise/plus large
-- nouvelles fonctionnalités à ajouter qui nécessitent du temps et du matériel supplémentaire
-- d’autres compétences nécessaires
-- vous percevez un potentiel de commercialisation en l’état/avec l’ajout de nouvelles fonctionnalités, etc.
-- bref bilan : vous avez répondu à la problématique, même en partie;
->>>>>>> refs/remotes/origin/main
