@@ -28,12 +28,17 @@ STOMAT est un store Automatique. Il se ferme et s'ouvre en fonction de la lumino
 
 ## Bilan
 - bref bilan : vous avez répondu à la problématique, même en partie;
-Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialement on avait pour objectif de faire des stores automatiques permettant en finction d'une simple commande de pouvoir faire monter ou descendre les stores . Dans nos recherches on s'est rendu compte qu'onj pouvait le rendre aussi manuel en fonction de notre sensibilite au soleil ce qui rendait encore sa presence encore plus ineluctable dans notre vie au quotidien...On aurait peut etre pu ajouter la faculte a ce que ce dernier s'arrete lors de sa descente ou de sa montee s'il recoit  "une commande STOP" ou a quelle vitesse il doit aller mais cet ensemble d'etapes constitue une version ulterieure de notre projet (avec des ressources et un temps plus consequent) 
+Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialement on avait pour objectif de faire des stores automatiques permettant en fonction d'une simple commande de pouvoir faire monter ou descendre les stores . Dans nos recherches on s'est rendu compte qu'onj pouvait le rendre aussi manuel en fonction de notre sensibilite au soleil ce qui rendait encore sa presence encore plus ineluctable dans notre vie au quotidien...
 
 ## Future
 - future works étendu : au cours du projet
     - vous avez eu d’autres idées 
+
+    On aurait peut etre pu ajouter la faculte a ce que ce dernier s'arrete lors de sa descente ou de sa montee  ou a quelle vitesse il doit aller dans un sens comme dans l'autre mais cet ensemble d'etapes et enfin modifier le seuil auquel le store s'arrete lors de son mouvement , ameliorer l'arbre moteur encore isntable, une alimentation branchee sur secteur au lieu des cables connectes . En effet, tout cela constitue une version ulterieure de notre projet (avec des ressources et un temps plus consequent) .Un prototype en taill reele pouvant etre implemente au quotidien
+
     - nouvelle problématique plus précise/plus large
     - nouvelles fonctionnalités à ajouter qui nécessitent du temps et du matériel supplémentaire
+    On aurait pu faire une application web et mobile permettant la connexion et la configuration du store automatique a distance.
     - d’autres compétences nécessaires
     - vous percevez un potentiel de commercialisation en l’état/avec l’ajout de nouvelles fonctionnalités, etc
+Ceci peut bien evidemment etre commercialiser si cela est fait a une echelle reelle et avec toutes les fonctionnalites non implementees.
