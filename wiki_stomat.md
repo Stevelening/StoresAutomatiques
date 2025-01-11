@@ -24,7 +24,7 @@ Matériel utilisé
 - un module bluetooth HC-05
 - un servo moteur
 - une breadboard qui était coupé en deux
-- du cablage
+- des fils de connections
 - une structure en bois découpé au laser
 - on a utilisé les chutes pour compléter cette structure
 - 2 axes en métal
