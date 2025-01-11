@@ -1,38 +1,90 @@
 # Wiki STOMAT
 
 ## Description du projet
-- Brève description du projet
-STOMAT est un store Automatique. Il se ferme et s'ouvre en fonction de la luminosité. Il dispose de commande manuel.
+STOMAT est un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité. Il dispose aussi de commande manuel.
 
-### L'équipe
-- liste des membres de l’équipe;
-    - Grathwohl Hugo
-    - Lening Talaupa Zidane Steve
-    - Saffo Tadaah Ange Leila
-    - Theubo Berger Ghislain
+### L'équipe:
+- Grathwohl Hugo
+- Lening Talaupa Zidane Steve
+- Saffo Tadaah Ange Leila
+- Theubo Berger Ghislain
 
 ## Problématique
-- problématique liée à votre projet et en quoi votre projet est tellement bien que vous y répondez (même en partie);
+```
+problématique liée à votre projet et en quoi votre projet est tellement bien que vous y répondez (même en partie)
+```
+    
 
 ## Matériel
-- matériel utilisé;
+```
+Matériel utilisé
+```
+- une Arduino uno
+- un capteur de lumière
+- un module bluetooth HC-05
+- un servo moteur
+- une breadboard qui était coupé en deux
+- du cablage
+- une structure en bois découpé au laser
+- 2 axes en métal
+- 2 bars en métal
+- élément de l'axe en PMMA découpé au laser
+- un ressort
+- une cartouche d'encre vide
 
 ## Utilisation
-- scénario d’utilisation : à vous de choisir la structure des sous-sections
+```
+scénario d’utilisation : à vous de choisir la structure des sous-sections
     - c’est ici que vous décrivez en détail ce que votre projet fait, 
     - comment il fonctionne, 
-    - avec à l’appui captures d’écran et vidéo(s) de démonstration; 
+    - avec à l’appui captures d’écran et vidéo(s) de démonstration
+```
+
+### Connection à la carte
+Pour configurer le store, il faut d'abord se connecter en bluetooth:
+```
+décrire ici comment faire
+```
+
+Une fois connecté le store dispose de 2 modes.
+### Mode manuel
+Le mode manuel dispose de 2 commande:
+- Store en position haute: envoyer 'mu' à la carte pour "manuel up"
+    ```
+    ajout de photo
+    ```
+- Store en position basse: envoyer 'md' à la carte pour "manuel down"
+    ```
+    ajout de photo
+    ```
+
+### Mode automatique
+Le mode automatique répond à la luminosité du capteur. Il est conseillé de l'attacher contre une fenètre.
+
+Si le capteur y est exposé, le store va alors se fermer.
+```
+ajout de photo
+```
+Si le capteur retourne à l'ombre, le store va s'ouvrir.
+```
+ajout de photo
+```
+
 
 ## Budget
-- budget approximatif : matériel + temps de travail (cohérent avec votre planning réel);
+```
+budget approximatif : matériel + temps de travail (cohérent avec votre planning réel);
+```
+- Cout matériel:
+- Temps de travail:
 
 ## Bilan
-- bref bilan : vous avez répondu à la problématique, même en partie;
+```bref bilan : vous avez répondu à la problématique, même en partie```
 
 ## Future
-- future works étendu : au cours du projet
-    - vous avez eu d’autres idées
-    - nouvelle problématique plus précise/plus large
-    - nouvelles fonctionnalités à ajouter qui nécessitent du temps et du matériel supplémentaire
-    - d’autres compétences nécessaires
-    - vous percevez un potentiel de commercialisation en l’état/avec l’ajout de nouvelles fonctionnalités, etc.
+```future works étendu : au cours du projet```
+- vous avez eu d’autres idées
+- nouvelle problématique plus précise/plus large
+- nouvelles fonctionnalités à ajouter qui nécessitent du temps et du matériel supplémentaire
+- d’autres compétences nécessaires
+- vous percevez un potentiel de commercialisation en l’état/avec l’ajout de nouvelles fonctionnalités, etc.
