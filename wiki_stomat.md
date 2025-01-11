@@ -26,6 +26,7 @@ Matériel utilisé
 - une breadboard qui était coupé en deux
 - du cablage
 - une structure en bois découpé au laser
+- on a utilisé les chutes pour compléter cette structure
 - 2 axes en métal
 - 2 bars en métal
 - élément de l'axe en PMMA découpé au laser
