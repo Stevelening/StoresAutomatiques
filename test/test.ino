@@ -9,6 +9,24 @@
 const int servoPin = 8; // Broche connectée au servomoteur
 const int sensorPin = A0; // Broche connectée au capteur de lumière
 
+const int moteurNoRotation = 85;
+
+const int moteurUp = 10;
+const int moteurDelayUp = 9000;
+
+const int moteurDown = 10;
+const int moteurDelayDown = 8500;
+
+bool autoEnable;
+int seuil;
+
+int luminosity;
+int luminosityAvg;
+int nbValAvg = 5;
+
+bool isStoreUp;
+
+
 Servo monServo;  // Crée un objet servo
 
 SoftwareSerial mySerial(rxPin, txPin);
@@ -22,41 +40,66 @@ void setup()
   pinMode(txPin, OUTPUT);
   mySerial.begin(9600);
   Serial.begin(9600);
+
+  isStoreUp = true;
+  seuil = 50;
+  luminosityAvg = 0;
+
+  monServo.write(moteurNoRotation); 
 }
 
 void loop()
 {
- 
-  bool autoEnable;
-  int height; // 0 pas de store ; 100 plein store ;
-  int seuil; // seuil a définir par default
-  getCmd(&autoEnable, &height, &seuil);
-
-  int luminosity;
-  getLuminosity(&luminosity); 
-
-  setMoteur(autoEnable, height, seuil, luminosity);
-  
+  getCmd();
+  getLuminosity(); 
+  setMoteur();
   delay(3000);
 }
 
-void setMoteur(bool autoEnable, int height, int seuil, int luminosity) {
+void getLuminosity() {
+  // on récupère la luminosité
+  int sensorValue = analogRead(sensorPin); // Lecture de la valeur du capteur
+  luminosity = map(sensorValue, 0, 1023, 100, 0); // Conversion en pourcentage de luminosité
+  debug("Degré de luminosité : ", luminosity, "%");
+  luminosityAvg = (luminosityAvg * (nbValAvg - 1) + luminosity) / nbValAvg;
+  debug("Degré de luminosité moyen : ", luminosityAvg, "%");
+
+}
+
+void setMoteur() {
+  if(!autoEnable) {return;}
+
   // on fait tourner le moteur en fonction des paramètres
-  if(autoEnable) {
-    monServo.write(seuil); 
+  if(luminosityAvg <= seuil) {
+    storeUp();
   } else {
-    monServo.write(88); 
+    storeDown();
   }
 }
 
-void getLuminosity(int * luminosity) {
-  // on récupère la luminosité
-  int sensorValue = analogRead(sensorPin); // Lecture de la valeur du capteur
-  *luminosity = map(sensorValue, 0, 1023, 100, 0); // Conversion en pourcentage de luminosité
-  debug("Degré de luminosité : ", *luminosity, "%");
+
+void storeUp() {
+  if(isStoreUp) {return;}
+
+  monServo.write(moteurNoRotation - moteurUp); 
+  delay(moteurDelayUp);
+  isStoreUp = true;
+  monServo.write(moteurNoRotation); 
 }
 
-void getCmd(bool* autoEnable, int* height, int* seuil) {
+void storeDown() {
+  if(!isStoreUp) {return;}
+
+  monServo.write(moteurNoRotation + moteurDown); 
+  delay(moteurDelayDown);
+  isStoreUp = false;
+  monServo.write(moteurNoRotation); 
+}
+
+
+
+
+void getCmd() {
   // Par Bluetooth
   while(mySerial.available()){
     char value = mySerial.read();
@@ -66,27 +109,28 @@ void getCmd(bool* autoEnable, int* height, int* seuil) {
     
     if(value == 'm') {
       // passe en mode manuel
-      *autoEnable = false;
-      debug("Passage en mode manuel", -1, "");
-    }
-
-    if(value == 'h') {
-      // change la hauteur du store en mode manuel
-      int value = (int)mySerial.read();
-      *height = value;
-      debug("Reglage de la hauteur à : ", value, "");
+      autoEnable = false;
+      char value = mySerial.read();
+      if(value == 'u'){
+        debug("Passage en mode manuel Up", -1, "");
+        storeUp();
+      }
+      if(value == 'd'){
+        debug("Passage en mode manuel Down", -1, "");
+        storeDown();
+      }
     }
 
     if(value == 'a'){
       // passe en mode automatique
-      *autoEnable = true;
+      autoEnable = true;
       debug("Passage en mode automatique", -1, "");
     }
 
     if(value == 's') {
       // change le seuil de fermeture du mode automatique
       int value = (int)mySerial.read();
-      *seuil = value;
+      seuil = value;
       debug("Reglage du seuil à : ", value, "");
     }
   }
