@@ -27,8 +27,8 @@ Matériel utilisé
 - des fils de connections
 - une structure en bois contreplaqué découpé au laser
 - on a utilisé les chutes pour compléter cette structure
-- 2 axes en métal
-- 2 bars en métal
+- 2 axes hélicoïdales en métal
+- 2 tiges en métal
 - élément de l'axe en PMMA découpé au laser
 - un ressort
 - une cartouche d'encre vide
