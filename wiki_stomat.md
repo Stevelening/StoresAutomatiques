@@ -1,7 +1,7 @@
 # Wiki STOMAT
 
 ## Description du projet
-STOMAT est un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité. Il dispose aussi de commande manuel.
+STOMAT est un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité. Il dispose aussi de commandes manuelles.
 
 ### L'équipe:
 - Grathwohl Hugo
@@ -22,10 +22,10 @@ Matériel utilisé
 - une Arduino uno
 - un capteur de lumière
 - un module bluetooth HC-05
-- un servo moteur
+- un servomoteur continue SM-S4315R
 - une breadboard qui était coupé en deux
 - des fils de connections
-- une structure en bois découpé au laser
+- une structure en bois contreplaqué découpé au laser
 - on a utilisé les chutes pour compléter cette structure
 - 2 axes en métal
 - 2 bars en métal
@@ -49,7 +49,7 @@ décrire ici comment faire
 
 Une fois connecté le store dispose de 2 modes.
 ### Mode manuel
-Le mode manuel dispose de 2 commande:
+Le mode manuel dispose de 2 commandes:
 - Store en position haute: envoyer 'mu' à la carte pour "manuel up"
     ```
     ajout de photo
