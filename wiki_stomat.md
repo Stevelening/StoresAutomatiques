@@ -84,9 +84,9 @@ Cela fait environ **30h** de temps de travail par personne. Étant donné que no
 
 | **Difficultés**      | **Solutions adoptées** |
 |----------------------|------------------------|
-| L’arduino uno ne delivre que 5V, ce qui n’est pas suffisant pour le module bluetooth, le capteur et le moteur | Utilisation d´un cable USB pour connecteur le moteur à la machine | 
-| Imprécision du capteur ou valeur incorrecte isolée | Moyenne des 05 dernières valeurs pour tendre progressivement vers la bonne valeur |
-| Incapacité d’imprimer les dernières pièces | Nous avons utilisé des pièces de substitution (cartouche d´encre, hélice, etc...) |
+| L’arduino uno ne delivre que 5V, ce qui n’est pas suffisant pour le module bluetooth, le capteur et le moteur | Utilisation d´un cable USB pour connecter le moteur directement à l'ordinateur | 
+| Imprécision du capteur ou valeur incorrecte isolée | Moyenne des 05 dernières valeurs pour tendre doucement vers la bonne valeur |
+| Incapacité d’imprimer les dernières pièces | Nous avons utilisé des pièces de substitution (cartouche d´encre, hélice du moteur, chutes de cp, etc...) |
 
 
 À grande échelle, on pourrait aussi rencontrer le problème de portée limitée du bluetooth pour les commandes manuelles. Étant donné que les équipements utilisés (module bluetooth, smartphone) sont des équipements de classe 2, c´est-à-dire ayant une portée de bluetooth de 10 m, on pourrait rencontrer des difficultés à commander le store manuellement à partie d´une d´autre pièce de la maison par exemple ou tout simplement à plus de 10 m de la fenêtre. Comme solution, on pourrait utiliser de plusieurs modules bluetooth qui se relai l´information.
