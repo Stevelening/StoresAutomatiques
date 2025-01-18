@@ -42,17 +42,21 @@ scénario d’utilisation : à vous de choisir la structure des sous-sections
 ### Connection à la carte
 Pour configurer le store, il faut d'abord se connecter en bluetooth.
 Pour ca nous utilisons une application: **Arduino Bluetooth Controller**  
+
 ![Arduino Bluetooth Controleur](images/Arduino_Bluetooth_Controller.png)  
 
-Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**.   
+Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**.  
+
 ![conection to HC-05](images/connection_to_HC_05.png)  
 
 Vous êtes alors connecter à la carte.  
 Il ne reste plus qu'a ouvrir le **terminal** pour entrer les commandes.  
+
 ![terminal](images/terminal.png)  
 
 
-Une fois connecté le store dispose de 2 modes.
+Une fois connecté et devant le terminal, le store dispose de 2 modes.
+
 ### Mode manuel
 Le mode manuel dispose de 2 commandes:
 - Store en position haute: envoyer 'mu' à la carte pour "manual up"
