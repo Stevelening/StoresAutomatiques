@@ -1,7 +1,7 @@
-# Wiki STOMAT
+# Store Automatique
 
 ## Description du projet
-STOMAT est un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité. Il dispose aussi de commandes manuelles.
+Nous avons intitulé ce projet STOMAT. Il s´agit d´un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité ambiante. Il dispose aussi de commandes manuelles premettant à l´utilisateur de contrôler manuellement le store.
 
 ### L'équipe:
 - Grathwohl Hugo
