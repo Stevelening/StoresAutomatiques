@@ -6,6 +6,7 @@
 - La diapo c´est le fichier `Sotres-Automatiques.pptx`
 - Le code source est dans le fichier `code/store.ino`
 - Le manuel d´installation et d´utilisation c´est le fichier `manuel.md`
+- Le planning du projet c´est le fichier `planning.md`
 
 
 ## Membre de l´équipe
