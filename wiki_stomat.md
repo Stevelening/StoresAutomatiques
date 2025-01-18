@@ -89,7 +89,7 @@ Cela fait environ **30h** de temps de travail par personne. Étant donné que no
 | Incapacité d’imprimer les dernières pièces | Nous avons utilisé des pièces de substitution (cartouche d´encre, hélice du moteur, chutes de cp, etc...) |
 
 
-À grande échelle, on pourrait aussi rencontrer le problème de portée limitée du bluetooth pour les commandes manuelles. Étant donné que les équipements utilisés (module bluetooth, smartphone) sont des équipements de classe 2, c´est-à-dire ayant une portée de bluetooth de 10 m, on pourrait rencontrer des difficultés à commander le store manuellement à partie d´une d´autre pièce de la maison par exemple ou tout simplement à plus de 10 m de la fenêtre. Comme solution, on pourrait utiliser de plusieurs modules bluetooth qui se relai l´information.
+À grande échelle, on pourrait aussi rencontrer le problème de portée limitée du bluetooth pour les commandes manuelles. Étant donné que les équipements utilisés (module bluetooth, smartphone) sont des équipements de classe 2, c´est-à-dire ayant une portée de bluetooth de 10 m, on pourrait rencontrer des difficultés à commander le store manuellement à partir d´une d´autre pièce de la maison par exemple ou tout simplement à plus de 10 m de la fenêtre. Comme solution, on pourrait utiliser plusieurs modules bluetooth qui se relaient l´information.
 
 
 ## Bilan
