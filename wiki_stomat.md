@@ -1,7 +1,7 @@
-# Wiki STOMAT
+# Store Automatique
 
 ## Description du projet
-STOMAT est un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité. Il dispose aussi de commandes manuelles.
+Nous avons intitulé ce projet STOMAT. Il s´agit d´un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité ambiante. Il dispose aussi de commandes manuelles premettant à l´utilisateur de contrôler manuellement le store.
 
 ### L'équipe:
 - Grathwohl Hugo
@@ -66,19 +66,19 @@ Le mode automatique répond à la luminosité du capteur. Il est conseillé de l
 
 ## Budget
 ### Cout matériel
-| Composant              | Prix      |
-|------------------------|-----------|
-| Arduino uno            | 30 €      |
-| Capteur de lumière     | 5 €       |
-| Module bluetooth HC-05 | 10 €      |
-| Servomoteur SM-S4315R  | 20 €      |
-| Breadboard             | 5 €       |
-| Reste                  | 15 € env. |
-| Total                  | 85 €      |
+| Composant              | Prix         |
+|------------------------|--------------|
+| Arduino uno            | 30 €         |
+| Capteur de lumière     | 5 €          |
+| Module bluetooth HC-05 | 10 €         |
+| Servomoteur SM-S4315R  | 20 €         |
+| Breadboard             | 5 €          |
+| Reste                  | 15 € environ |
+| Total                  | 85 €         |
 
 ### Temps de travail
 En plus des **15h** de cours, nous avons fourni un investissement personnel d'environ **15h**.  
-Cela fait environ **30h** de temps de travail par personne.
+Cela fait environ **30h** de temps de travail par personne. Étant donné que nous étions 4 étudiants à travailler sur ce projet, ce projet aura nécessité au total environ **120h** heures de travail.
 
 ## Bilan
 - bref bilan : vous avez répondu à la problématique, même en partie;
