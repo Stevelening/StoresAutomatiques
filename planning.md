@@ -6,9 +6,9 @@ Formation des équipes et choix du projet.
 
 2. Définition du contenu du projet (3h)
 
-Nous avons réalisé un brainstorming pour s´entendre sur ce qu´on devait faire exactement dans le projet. Nous sommes sortis de cette étape avec des specifications claires du projet.
+Nous avons réalisé un brainstorming pour s´entendre sur ce qu´on devait faire exactement dans le projet. Nous sommes sortis de cette étape avec des spécifications claires du projet.
 
-4. Identification, répartition des tâches et demarrage des recherches (1h30)
+4. Identification, répartition des tâches et démarrage des recherches (1h30)
 
 5. Identification des composants utilisés (1h30)
 
