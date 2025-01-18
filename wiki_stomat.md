@@ -96,4 +96,4 @@ Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialem
 Ceci peut bien evidemment etre commercialiser si cela est fait a une echelle reelle et avec toutes les fonctionnalites non implementees.
 
 ## Dépot
-Le dépot git se trouve ici: [Le lien du dépot sur git STOMAT](https://github.com/Stevelening/StoresAutomatiques)
+Le dépot git se trouve ici: [Lien du dépôt github du projet STOMAT](https://github.com/Stevelening/StoresAutomatiques)
