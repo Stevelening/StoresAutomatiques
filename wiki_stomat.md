@@ -52,14 +52,14 @@ Une fois connecté et devant le terminal, le store dispose de 2 modes.
 
 ### Mode manuel
 Le mode manuel dispose de 2 commandes:
-- Store en position haute: envoyer 'mu' à la carte pour "manual up"
-- Store en position basse: envoyer 'md' à la carte pour "manual down"
+- Store en position haute: envoyer &nbsp; ```mu``` &nbsp; à la carte pour "manual up"
+- Store en position basse: envoyer &nbsp; ```md``` &nbsp; à la carte pour "manual down"
 
 ### Mode automatique
 Le mode automatique répond à la luminosité du capteur. Il est conseillé de l'attacher contre une fenètre.  
 - Si le capteur y est exposé, le store va alors se fermer.
 - Si le capteur retourne à l'ombre, le store va s'ouvrir.
-Pour l'activer, il faut envoyer la commande 'a' à la carte pour "automatic"
+Pour l'activer, il faut envoyer la commande &nbsp; ```a``` &nbsp; à la carte pour "automatic"
 
 
 
