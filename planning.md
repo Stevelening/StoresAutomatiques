@@ -10,15 +10,15 @@ Nous avons réalisé un brainstorming pour s´entendre sur ce qu´on devait fair
 
 4. Identification, répartition des tâches et démarrage des recherches (1h30)
 
-5. Identification des composants utilisés (1h30)
+5. Identification des composants à utiliser (1h30)
 
 6. Partie logicielle avec arduino (1h30)
     - Le moteur (Hugo et Steve)
-    - Le capteur (Leila et Ghislain)
+    - Le capteur lumineux (Leila et Ghislain)
 
 7. Synthèse du code (Toute l´équipe) (1h30)
 
-8. Partie materielle (Toute l´équipe)
+8. Partie matérielle (Toute l´équipe)
     - Choix et travail du tissu (1h30)
     - Câblage (3h)
     - Boite (6h)
