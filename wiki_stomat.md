@@ -38,7 +38,7 @@ Pour ca nous utilisons une application: **Arduino Bluetooth Controller**
 
 ![Arduino Bluetooth Controleur](images/Arduino_Bluetooth_Controller.png)  
 
-Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**.  
+Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**. Le mot de passe par défaut du bluetooth est `1234`.
 
 ![conection to HC-05](images/connection_to_HC_05.png)  
 
@@ -94,4 +94,4 @@ Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialem
 Ceci peut bien evidemment etre commercialiser si cela est fait a une echelle reelle et avec toutes les fonctionnalites non implementees.
 
 ## Dépot
-Le dépot git se trouve ici: [Le lien du dépot sur git STOMAT](https://github.com/Stevelening/StoresAutomatiques)
+Le dépot git se trouve ici: [Lien du dépôt github du projet STOMAT](https://github.com/Stevelening/StoresAutomatiques)

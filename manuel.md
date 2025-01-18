@@ -5,7 +5,7 @@ Le code source est fourni dans un fichier `code/store.ino`. Il faut procéder co
 - Connecter le microcontrolleur à votre ordinateur via le cable USB adapté.
 - Ouvrir le fichier store.ino avec le logiciel Arduino.
 - Cliquer sur le bouton "✓" pour verifier le code, si vous avec toutes les dépendances installées, la verification devrait bien se passer. Sinon le logiciel vous proposera de télécharger les dépendances manquantes.
-- Cliquer sur le bouton "->" pour compiler et téléverser le code source dans le mico-controlleur.
+- Cliquer sur le bouton "→" pour compiler et téléverser le code source dans le mico-controlleur.
 - Ouvrir le moniteur série (Cliquer sur Terminal dans la barre de menu, puis sur Moniteur Série) pour avoir un feedback de ce qui se passe en temps réel (luminosité détectée, changement de mode, etc). 
 
 Vous pouvez maintenant utiliser le Store Automatique.
@@ -17,7 +17,7 @@ Pour ca nous utilisons une application: **Arduino Bluetooth Controller**
 
 ![Arduino Bluetooth Controleur](images/Arduino_Bluetooth_Controller.png)  
 
-Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**.  
+Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**. Le mot de passe par défaut du bluetooth est `1234`.
 
 ![conection to HC-05](images/connection_to_HC_05.png)  
 
