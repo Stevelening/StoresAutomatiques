@@ -10,11 +10,11 @@ Nous avons intitulé ce projet [STOMAT](https://github.com/Stevelening/StoresAut
 - Theubo Berger Ghislain
 
 ## Problématique
-Comment concevoir un store automatique, simple à utiliser et qui s'adapte à la luminosité ambiante ?  
-Comment donner la possibilité à l'utilisateur de contrôler le store de façon manuelle ?  
-Comment rendre les commandes du store personnalisables par l'utilisateur ?  
+- Comment concevoir un store automatique, simple à utiliser et qui s'adapte à la luminosité ambiante ?  
+- Comment donner la possibilité à l'utilisateur de contrôler le store de façon manuelle ?  
+- Comment rendre les commandes du store personnalisables par l'utilisateur ?  
 
-Dans ce cadre nous avons décidé de construire un store automatique miniature.
+Dans ce cadre, nous avons décidé de construire un store automatique à petite échelle.
 
 ## Matériel
 - une Arduino uno
