@@ -1,7 +1,7 @@
 # Store Automatique
 
 ## Description du projet
-Nous avons intitulé ce projet STOMAT. Il s´agit d´un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité ambiante. Il dispose aussi de commandes manuelles premettant à l´utilisateur de contrôler manuellement le store.
+Nous avons intitulé ce projet [STOMAT](https://github.com/Stevelening/StoresAutomatiques). Il s´agit d´un store Automatique, qui se ferme et s'ouvre en fonction de la luminosité ambiante. Il dispose aussi de commandes manuelles premettant à l´utilisateur de contrôler manuellement le store.
 
 ### L'équipe:
 - Grathwohl Hugo
@@ -91,3 +91,6 @@ Dans l'ensemble nos objectifs par rapport a ce projet ont ete atteints initialem
     On aurait pu faire une application web et mobile permettant la connexion et la configuration du store automatique a distance.
 
 Ceci peut bien evidemment etre commercialiser si cela est fait a une echelle reelle et avec toutes les fonctionnalites non implementees.
+
+## Dépot
+Le dépot git se trouve ici: [Le lien du dépot sur git STOMAT](https://github.com/Stevelening/StoresAutomatiques)
