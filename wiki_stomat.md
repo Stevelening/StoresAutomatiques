@@ -44,23 +44,25 @@ Pour configurer le store, il faut d'abord se connecter en bluetooth.
 Pour ca nous utilisons une application: **Arduino Bluetooth Controller**  
 ![Arduino Bluetooth Controleur](images/Arduino_Bluetooth_Controller.png)  
 
-Pour se connecter, cliquez sur l'icone de prise et sélectionner le module HC-05.   
+Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-05**.   
 ![conection to HC-05](images/connection_to_HC_05.png)  
-Vous êtes alors connecter à la carte. Il ne reste plus qu'a ouvrir le terminal pour entrer les commandes.  
+
+Vous êtes alors connecter à la carte.  
+Il ne reste plus qu'a ouvrir le **terminal** pour entrer les commandes.  
 ![terminal](images/terminal.png)  
 
 
 Une fois connecté le store dispose de 2 modes.
 ### Mode manuel
 Le mode manuel dispose de 2 commandes:
-- Store en position haute: envoyer 'mu' à la carte pour "manuel up"
-- Store en position basse: envoyer 'md' à la carte pour "manuel down"
+- Store en position haute: envoyer 'mu' à la carte pour "manual up"
+- Store en position basse: envoyer 'md' à la carte pour "manual down"
 
 ### Mode automatique
-Le mode automatique répond à la luminosité du capteur. Il est conseillé de l'attacher contre une fenètre.
+Le mode automatique répond à la luminosité du capteur. Il est conseillé de l'attacher contre une fenètre.  
 - Si le capteur y est exposé, le store va alors se fermer.
 - Si le capteur retourne à l'ombre, le store va s'ouvrir.
-
+Pour l'activer, il faut envoyer la commande 'a' à la carte pour "automatic"
 
 
 
