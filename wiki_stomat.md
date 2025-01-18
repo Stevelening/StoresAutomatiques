@@ -61,7 +61,7 @@ Le mode automatique répond à la luminosité du capteur. Il est conseillé de l
 - Si le capteur retourne à l'ombre, le store va s'ouvrir.
 Pour l'activer, il faut envoyer la commande &nbsp; ```a``` &nbsp; à la carte pour "automatic"  
   
-Voici une [video de présentation](https://www.youtube.com/shorts/BJVpmzUDGSg) du STOMAT:  
+Voici une [vidéo de présentation](https://www.youtube.com/shorts/BJVpmzUDGSg) du STOMAT:  
 
 <iframe width="560" height="315" src="https://www.youtube.com/shorts/BJVpmzUDGSg" frameborder="0" allowfullscreen></iframe>
 
