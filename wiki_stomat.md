@@ -32,13 +32,6 @@ Dans ce cadre nous avons décidé de construire un store automatique miniature.
 - une cartouche d'encre vide
 
 ## Utilisation
-```
-scénario d’utilisation : à vous de choisir la structure des sous-sections
-    - c’est ici que vous décrivez en détail ce que votre projet fait, 
-    - comment il fonctionne, 
-    - avec à l’appui captures d’écran et vidéo(s) de démonstration
-```
-
 ### Connection à la carte
 Pour configurer le store, il faut d'abord se connecter en bluetooth.
 Pour ca nous utilisons une application: **Arduino Bluetooth Controller**  
@@ -49,7 +42,7 @@ Pour se connecter, cliquez sur l'icone de prise et sélectionner le **module HC-
 
 ![conection to HC-05](images/connection_to_HC_05.png)  
 
-Vous êtes alors connecter à la carte.  
+Vous êtes alors connecté à la carte.  
 Il ne reste plus qu'a ouvrir le **terminal** pour entrer les commandes.  
 
 ![terminal](images/terminal.png)  
