@@ -17,9 +17,6 @@ Comment rendre les commandes du store personnalisables par l'utilisateur ?
 Dans ce cadre nous avons décidé de construire un store automatique miniature.
 
 ## Matériel
-```
-Matériel utilisé
-```
 - une Arduino uno
 - un capteur de lumière
 - un module bluetooth HC-05
@@ -87,7 +84,7 @@ ajout de photo
 
 ### Temps de travail
 En plus des **15h** de cours, nous avons fourni un investissement personnel d'environ **15h**.  
-Cela fait environ **30h** de temps de travail.
+Cela fait environ **30h** de temps de travail par personne.
 
 ## Bilan
 - bref bilan : vous avez répondu à la problématique, même en partie;
