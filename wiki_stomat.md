@@ -83,6 +83,7 @@ Cela fait environ **30h** de temps de travail par personne. Étant donné que no
 ## Difficultés rencontrées et solutions adoptées
 
 | **Difficultés**      | **Solutions adoptées** |
+|----------------------|------------------------|
 | L’arduino uno ne delivre que 5V, ce qui n’est pas suffisant pour le module bluetooth, le capteur et le moteur | Utilisation d´un cable USB pour connecteur le moteur à la machine | 
 | Imprécision du capteur ou valeur incorrecte isolée | Moyenne des 05 dernières valeurs pour tendre progressivement vers la bonne valeur |
 | Incapacité d’imprimer les dernières pièces | Nous avons utilisé des pièces de substitution (cartouche d´encre, hélice, etc...) |
